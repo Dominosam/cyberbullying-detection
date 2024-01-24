@@ -62,6 +62,10 @@ After training, the models' performances are evaluated and compared. The results
 ![Comparison](results/charts.png)
 ![Stats](results/stats.png)
 
+### Summary:
+- The TextCategorizer is extremely precise but lacks recall, meaning it's very conservative in its predictions. It's likely missing a lot of true cyberbullying instances.
+- The TextCNNClassifier shows a more balanced and effective performance in identifying cyberbullying instances, making it a more reliable choice for practical applications.
+
 ## Notes 📝
 
 - The effectiveness of the models depends significantly on the quality and diversity of the training data.
